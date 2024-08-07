@@ -1,0 +1,181 @@
+
+body {
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+}
+section{
+    
+    border-bottom: 2px solid #00ff00;
+}
+section h2{
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;   
+}
+
+
+.navbar {
+    background-color: #030303;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+/* About Section Styles */
+#about {
+    background-color: #0a0a0a; 
+    padding: 50px 0; 
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: justify; 
+}
+
+.about-content h3,
+.about-content p {
+    color: #ffffff; 
+}
+
+/* Features Section Styles */
+#features {
+    background-color: #000000;
+    padding: 50px 0; 
+}
+
+#features .carousel-inner .carousel-item img {
+    max-width: 100%; 
+    max-height: 800px; 
+    height: auto; 
+    border-radius: px; 
+    
+}
+/* Testimonial Card Styles */
+.testimonial-card {
+    background-color: #313030; 
+    border: 5px solid #00ff00; 
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; 
+}
+
+.testimonial-img {
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+}
+
+
+/* Events Section Styles */
+#events {
+    background-color: #000000;
+    padding: 50px 0;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+}
+
+.table th {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+.table td,
+.table th {
+    border: 2px solid #dee2e6;
+    padding: 10px;
+}
+
+/* Gallery Section Styles */
+#gallery {
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow:  0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+.gallery-item img {
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+/* Timeline Section Styles */
+#timeline {
+    background-color: #0f0f0f; 
+    padding: 50px 0; 
+}
+
+.card {
+    border: none; 
+    transition: transform 0.3s ease;
+    
+}
+
+.card-body {
+    color: #fff;
+}
+
+.card-title {
+    color: #00ff00;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #0c0c0c; 
+    padding: 5px 0; 
+}
+
+
+/* Neon Glow Effect */
+.neon-glow {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #00ff00;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
